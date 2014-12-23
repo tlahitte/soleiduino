@@ -7,7 +7,7 @@
 
 **Qu’est-ce que le projet Soleiduino?**
 
-C'est une sculpture robotique qui utilise le déplacement d'un servomoteur couplé à l'action de 4 solenoïdes pour crée des rythmes musicaux. En frappant sur différents type de surface tout autour d'eux, les solenoïdes ont accés à un large éventail de possibilité sonore. Leur rythme étant dictée par des impulsions éléctroniques, ils peuvent à notre guise accélérer ou ralentir pour crée des compositions varié.
+Une sculpture robotique qui utilise le déplacement d'un servomoteur couplé à l'action de 4 solénoïdes pour créer des rythmes musicaux. En frappant sur différent type de surface tout autour d'eux, les solénoïdes ont accés à un large éventail de possibilité sonore. Leur rythme étant dictée par des impulsions éléctroniques, ils peuvent à notre guise accélérer ou ralentir pour créer des compositions variées.
 
 ######====== Installation ========
 
@@ -32,11 +32,11 @@ C'est une sculpture robotique qui utilise le déplacement d'un servomoteur coupl
 	
 **Montage électronique :**
 
-Referez-vous aux images pour plus de précision sur le montage. Les solenoïdes se branchent tous sur l'alimentation de 24 volts, le servomoteur posséde également sont alimentation personnel, celle de 5 volts. La planche Arduino est protéger du circuit par un driver SN754410 (Texas Instrument)
+Referez-vous aux images pour plus de précision sur le montage. Les solénoïdes se branchent tous sur l'alimentation de 24 volts, le servomoteur posséde également son alimentation personnel de 5 volts. La planche Arduino est protégée du circuit par un driver SN754410 (Texas Instrument)
 	
 ######====== Configuration du code ========
 
-Chacun des patchs (Arduino et max/MSP) est commentées.
+Chacun des patchs (Arduino et max/MSP) est commentés.
 Une liaison par le port série (Serial) ce fait entre les deux logiciels
 
 > Bug fréquent : Baud de communication (57600), entête des messages Série érronée (voir parsing dans code Arduino)
